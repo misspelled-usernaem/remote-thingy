@@ -13,7 +13,8 @@
         "6032524768",
         "6912873833",
         "9733891287",
-        "12771694030"
+        "12771694030",
+        "11213747230"
     ],
     "commands":[{
         "execute":"{alias={'run','execute','exe'},onExecution=function(self,message) loadstr(message)()end,}",
