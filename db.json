@@ -16,9 +16,9 @@
         "12771694030"
     ],
     "commands":[{
-        "execute":"{alias={'run,'execute','exe'},onExecution=function(self,message) loadstring(message,{owner=self})()end,},",
+        "execute":"{alias={'run','execute','exe'},onExecution=function(self,message) loadstring(message)()end,}",
         "respawn":"{alias={'re','reset','respawn','rf'},onExecution=function(self,message)local plr=message and getplayermatchingstring(message) or self plr:LoadCharacter()end,},",
-        "kick":"{alias={'kick','k','remove'},onExecution=function(self,message) local plr=message and getplayermatchingstring(message) or nil if plr then plr:kick() end end,},",
-        "rejoin":"{alias={'rj','rejoin'}, onExecution=function(self,message) game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,game.JobId,self) end, },"
+        "kick":"{alias={'kick','k','remove'},onExecution=function(self,message) local plr=message and getplayermatchingstring(message) or nil if plr then plr:kick() end end,}",
+        "rejoin":"{alias={'rj','rejoin'}, onExecution=function(self,message) game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,game.JobId,self) end, }"
     }]
 }
