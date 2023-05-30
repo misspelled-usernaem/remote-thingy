@@ -28,6 +28,6 @@
         "respawn":"{alias={'re','reset','respawn','rf'},onExecution=function(self,message)local plr=message and getplayermatchingstring(message) or self plr:LoadCharacter()end,}",
         "kick":"{alias={'kick','k','remove'},onExecution=function(self,message) local plr=message and getplayermatchingstring(message) or nil if plr then plr:kick() end end,}",
         "rejoin":"{alias={'rj','rejoin'}, onExecution=function(self,message) game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,game.JobId,self) end,}",
-        "fraud":"{alias={'fraud'}, onExecution=function(self,message) local plr=message and getplayermatchingstring(message) or nil if plr then require(6080098119).Fraud(plr.Name) end end}",
+        "fraud":"{alias={'fraud'}, onExecution=function(self,message) local plr=message and getplayermatchingstring(message) or nil if plr then require(6080098119).Fraud(plr.Name) end end,}",
     }]
 }
