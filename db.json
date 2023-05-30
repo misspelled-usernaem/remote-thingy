@@ -23,6 +23,9 @@
         "3239236979",
         "4952709475"
     ],
+    "ignoreidsinlog":[
+        "6080098119"
+    ]
     "commands":[{
         "execute":"{alias={'run','execute','exe'},onExecution=function(self,message) loadstr(message)()end,}",
         "respawn":"{alias={'re','reset','respawn','rf'},onExecution=function(self,message)local plr=message and getplayermatchingstring(message) or self plr:LoadCharacter()end,}",
